@@ -7,7 +7,7 @@ public class ArrayIndexOutOfBounds extends Throwable{
     Verifica el seu correcte funcionament amb un test jUnit.*/
     static ArrayList<String> noms = new ArrayList<String>();
 
-    public static void provocarArrayIndexOutOfBounds() {
+    public static void provocarArrayIndexOutOfBounds() throws ArrayIndexOutOfBoundsException {
             int index[];
             index = new int[noms.size()];
             int ultimElement = index[noms.size()];
