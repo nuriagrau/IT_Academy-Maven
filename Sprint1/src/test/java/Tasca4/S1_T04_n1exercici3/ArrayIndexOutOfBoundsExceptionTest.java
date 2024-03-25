@@ -14,7 +14,7 @@ class ArrayIndexOutOfBoundsExceptionTest {
 
     @Test
     public void ArrayIndexOutOfBounds_shouldTrowExceptionTest() {
-        Assertions.assertThrows(java.lang.ArrayIndexOutOfBoundsException.class, () -> {arrayIndexOutOfBounds.provocarArrayIndexOutOfBounds();});
+        Exception exception = Assertions.assertThrows(java.lang.ArrayIndexOutOfBoundsException.class, () -> {arrayIndexOutOfBounds.provocarArrayIndexOutOfBounds();});
     }
 
     @Test

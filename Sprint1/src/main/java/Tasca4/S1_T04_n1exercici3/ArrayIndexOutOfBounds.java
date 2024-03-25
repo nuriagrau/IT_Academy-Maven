@@ -16,7 +16,7 @@ public class ArrayIndexOutOfBounds extends Throwable{
         } catch (java.lang.ArrayIndexOutOfBoundsException e) {
             System.out.println("S'ha provocat un ArrayIndexOutOfBounds exception.");
             System.out.println(e.getMessage());
-            throw e;
+            throw e; // Throws exception for the test
         }
     }
 

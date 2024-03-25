@@ -6,7 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class YearTest {
 
-    Year newYear = new Year();
+   Year newYear = new Year();
+
     @BeforeEach
     void setUp() {
         newYear.addMonths();
