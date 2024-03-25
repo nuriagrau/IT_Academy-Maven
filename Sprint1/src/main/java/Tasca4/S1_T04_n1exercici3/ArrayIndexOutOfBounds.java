@@ -8,20 +8,20 @@ public class ArrayIndexOutOfBounds extends Throwable{
     static ArrayList<String> noms = new ArrayList<String>();
 
     public static void provocarArrayIndexOutOfBounds() {
-        try {
             int index[];
             index = new int[noms.size()];
             int ultimElement = index[noms.size()];
-
-        } catch (java.lang.ArrayIndexOutOfBoundsException e) {
-            System.out.println("S'ha provocat un ArrayIndexOutOfBounds exception.");
-            System.out.println(e.getMessage());
-            throw e; // Throws exception for the test
-        }
     }
 
     public static void main(String[] args) {
         ArrayList<String> noms = new ArrayList<String>();
-        provocarArrayIndexOutOfBounds();
+
+        try {
+            provocarArrayIndexOutOfBounds();
+
+        } catch (java.lang.ArrayIndexOutOfBoundsException e) {
+            System.out.println("S'ha provocat un ArrayIndexOutOfBounds exception.");
+            System.out.println(e.getMessage());
+        }
     }
 }
