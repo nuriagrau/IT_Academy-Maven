@@ -1,7 +1,6 @@
 package Tasca5.n1exercici3;
 
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -43,9 +42,9 @@ public class DirListText {
             for (Path path : filesPath.toList()) {
                 Date dateLast = new Date(path.toFile().lastModified());
                 if (path.toFile().isDirectory()) {
-                    dir.add(new DirListText("(D)" + path.toString() + " |Last Modified: " + dateLast));
+                    dir.add(new DirListText("(D)" + path + " |Last Modified: " + dateLast));
                 } else {
-                    dir.add(new DirListText("   (F)" + path.toString() + " |Last Modified: "  + dateLast));
+                    dir.add(new DirListText("   (F)" + path + " |Last Modified: "  + dateLast));
                 }
             }
             filesPath.close(); // close Stream
@@ -59,7 +58,7 @@ public class DirListText {
                     writer.newLine();
                 }
             } catch(IOException e) {
-                e.printStackTrace();
+                System.err.println(e.getMessage());
                 System.out.println("Hi ha hagut un problema durant el procés d'escriptura al arxiu.");
             }
 

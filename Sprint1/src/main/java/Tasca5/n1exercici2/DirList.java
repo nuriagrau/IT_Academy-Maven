@@ -40,9 +40,9 @@ public class DirList {
                 for (Path path : filesPath.toList()) {
                     Date dateLast = new Date(path.toFile().lastModified());
                     if (path.toFile().isDirectory()) {
-                        dir.add(new DirList("(D)" + path.toString() + " |Last Modified: " + dateLast));
+                        dir.add(new DirList("(D)" + path + " |Last Modified: " + dateLast));
                     } else {
-                        dir.add(new DirList("   (F)" + path.toString() + " |Last Modified: "  + dateLast));
+                        dir.add(new DirList("   (F)" + path + " |Last Modified: "  + dateLast));
                     }
                 }
                 filesPath.close(); // close Stream
