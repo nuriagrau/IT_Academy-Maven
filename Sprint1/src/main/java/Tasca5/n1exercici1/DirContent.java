@@ -36,6 +36,7 @@ public class DirContent {
             }
             Collections.sort(dir, new SortByName());
             dir.forEach(System.out::println);
+
         } catch (Exception e) {
             System.err.println(e.getMessage());
             System.out.println("Hi ha hagut un problema durant el procés.");

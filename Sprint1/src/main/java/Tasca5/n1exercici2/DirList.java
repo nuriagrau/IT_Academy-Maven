@@ -1,8 +1,5 @@
 package Tasca5.n1exercici2;
 
-import Tasca5.n1exercici1.DirContent;
-
-import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
