@@ -18,6 +18,7 @@ public class DirContent {
 
     static class SortByName implements Comparator<DirContent> {
         public int compare(DirContent a, DirContent b) {
+
             return a.fileName.compareTo(b.fileName);
         }
     }

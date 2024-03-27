@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Primer Commit">
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="New improved version">
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici4/App_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici4/DirListReadTXT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/DirContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/DirContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,11 @@
     "Application.ArrayIndexOutOfBoundsException.executor": "Run",
     "Application.DirContent.executor": "Run",
     "Application.DirList.executor": "Run",
+    "Application.DirListReadTXT.executor": "Run",
+    "Application.DirListReadTXTNC.executor": "Run",
+    "Application.DirListText.executor": "Run",
     "Application.Java.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Month.executor": "Run",
     "Application.Year.executor": "Run",
     "JUnit.ArrayIndexOutOfBoundsExceptionTest.ArrayIndexOutOfBounds_shouldTrowExceptionTest.executor": "Debug",
@@ -223,7 +231,47 @@
       <option name="project" value="LOCAL" />
       <updated>1711453940996</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Canvis neteja codi sense efecte">
+      <option name="closed" value="true" />
+      <created>1711454133368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711454133368</updated>
+    </task>
+    <task id="LOCAL-00008" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1711463506415</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711463506415</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixed unnecessary toString">
+      <option name="closed" value="true" />
+      <created>1711463739694</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711463739694</updated>
+    </task>
+    <task id="LOCAL-00010" summary="New imporved version">
+      <option name="closed" value="true" />
+      <created>1711558289243</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711558289243</updated>
+    </task>
+    <task id="LOCAL-00011" summary="New improved version">
+      <option name="closed" value="true" />
+      <created>1711558303993</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711558303993</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +289,11 @@
     <MESSAGE value="Try catch a main so throw not needed and both class and test files handles exception" />
     <MESSAGE value="Throws added to method signature" />
     <MESSAGE value="Primer Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer Commit" />
+    <MESSAGE value="Canvis neteja codi sense efecte" />
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Fixed unnecessary toString" />
+    <MESSAGE value="New imporved version" />
+    <MESSAGE value="New improved version" />
+    <option name="LAST_COMMIT_MESSAGE" value="New improved version" />
   </component>
 </project>
