@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="New improved version">
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici4/App_0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici4/DirListReadTXT.java" afterDir="false" />
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="New improved versions">
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici5/Transporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici5/n1exercici5_tools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/DirContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/DirContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici3/DirListText.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici3/DirListText.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711558303993</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="New improved versions">
+      <option name="closed" value="true" />
+      <created>1711559818153</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711559818153</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,6 +305,7 @@
     <MESSAGE value="Fixed unnecessary toString" />
     <MESSAGE value="New imporved version" />
     <MESSAGE value="New improved version" />
-    <option name="LAST_COMMIT_MESSAGE" value="New improved version" />
+    <MESSAGE value="New improved versions" />
+    <option name="LAST_COMMIT_MESSAGE" value="New improved versions" />
   </component>
 </project>

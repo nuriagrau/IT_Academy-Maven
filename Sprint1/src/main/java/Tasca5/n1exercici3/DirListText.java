@@ -13,9 +13,8 @@ import java.util.Date;
 import java.util.stream.Stream;
 
 public class DirListText {
-    /* TODO Afegeix a la classe de l’exercici anterior, la funcionalitat de llistar un arbre de directoris amb el
-        contingut de tots els seus nivells (recursivament) de manera que s'imprimeixin en pantalla en ordre alfabètic
-        dins de cada nivell, indicant a més si és un directori (D) o un fitxer (F), i la seva última data de modificació.
+    /* TODO Modifica l’exercici anterior. Ara, en lloc de mostrar el resultat per la pantalla, guarda el resultat en un
+       fitxer TXT.
         */
     String fileName;
 
