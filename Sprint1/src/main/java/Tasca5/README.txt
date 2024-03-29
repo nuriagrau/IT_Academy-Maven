@@ -1,5 +1,5 @@
-Alt-H2 **Commands for Console/Terminal**
-------
+##**Commands for Console/Terminal**
+
 
 ###1. *Go to directory where package is stored. Write the command:*
     `cd <directory path to package>`
