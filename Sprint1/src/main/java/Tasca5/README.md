@@ -31,6 +31,7 @@ This program can run with a default directory to read and default file names to 
 ### 3.2 - With args. 
 The program can also run with 1, 2 or 3 args.
 
+
 **3.2.1 arg1: directory to read.**
 For n1exercici1 to n1exercici5
 
@@ -40,6 +41,7 @@ in my GitHub repository it would be:
                                
     java Tasca5/n1exercici5/Main.java /Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/              
 
+
 **3.2.2 arg1, arg2: txtFile to write to.**
 For n1exercici3 to n1exercici5.The file will be created in the n1exercici5 package.
              
@@ -48,6 +50,7 @@ For n1exercici3 to n1exercici5.The file will be created in the n1exercici5 packa
 in my GitHub repository an example would be:
                    
     Tasca5/n1exercici5/Main.java /Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/ newSortedDirList.txt
+
                
 **3.2.3 arg1, arg[1], arg[2]: serFile for serialization/deserialization.**
 For n1exercici5 only. The files will be created in the n1exercici5 package.
