@@ -32,8 +32,10 @@ public class Main {
 
 
     public static void main(String[] args) {
-        // full path directory can be main args
-        String dirPath = "/Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/src/main/java";
+        String dirPath = "";// args[0]
+        String userDirectoryPath = System.getProperty("user.dir");
+
+        dirPath = (args.length == 1)? args[0] : userDirectoryPath;
 
         // file object
         File directory= new File(dirPath);

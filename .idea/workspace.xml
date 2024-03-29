@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="First commit versions">
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici5/README.txt" afterDir="false" />
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Change to .md file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/DirContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici2/DirList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici3/DirListText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici4/App_0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici4/DirListReadTXT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici4/Main_0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -71,6 +85,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5" />
       <recent name="$PROJECT_DIR$/Sprint1/src/test/java" />
       <recent name="$PROJECT_DIR$/Sprint1/src/main/java" />
     </key>
@@ -283,7 +298,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711639894650</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="First commit versions">
+      <option name="closed" value="true" />
+      <created>1711640550480</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711640550480</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Complete version">
+      <option name="closed" value="true" />
+      <created>1711704252248</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711704252248</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Complete version moved to package Tasca5">
+      <option name="closed" value="true" />
+      <created>1711704295824</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711704295824</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Change to .md file">
+      <option name="closed" value="true" />
+      <created>1711705214435</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711705214435</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +355,9 @@
     <MESSAGE value="New improved version" />
     <MESSAGE value="New improved versions" />
     <MESSAGE value="First commit versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit versions" />
+    <MESSAGE value="Complete version" />
+    <MESSAGE value="Complete version moved to package Tasca5" />
+    <MESSAGE value="Change to .md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change to .md file" />
   </component>
 </project>

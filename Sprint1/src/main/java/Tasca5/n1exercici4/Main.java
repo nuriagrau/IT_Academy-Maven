@@ -35,6 +35,7 @@ public class Main {
         File newFile = new File(filePath);
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) { // FileWriter creates a new file
             writer.write(header);
+            writer.newLine();
             writer.write(dirContent);
             writer.close();
             System.out.println("El contingut del directory s'ha guardat correctament a " + filePath);
@@ -61,11 +62,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        // full path directory can be main args
-        String dirPath = "/Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/src/main/";
+        String dirPath = "";// args[0]
+        String txtFilename = ""; // args[1]
         String userDirectoryPath = System.getProperty("user.dir");
-        String filePath = userDirectoryPath + "/Sprint1/src/main/java/Tasca5/n1exercici4/SortedDirList.txt";
 
+        dirPath = (args.length > 0)? args[0] : userDirectoryPath;
+        txtFilename = (args.length == 2) ? args[1] : "SortedDirList.txt";
+        String filePath = userDirectoryPath + "/Tasca5/n1exercici4/" + txtFilename;
 
         File directory = new File(dirPath);
         if (directory.exists()) {

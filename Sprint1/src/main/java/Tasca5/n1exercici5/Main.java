@@ -5,47 +5,15 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) {
         // TODO Ara el programa ha de serialitzar un Objecte Java a un fitxer.ser i després l’ha de desserialitzar.
-        // full path directory can be main args
-        // args[0] directoryPath, args[1] new files directory, args[2] txtFilename, args[3] serFilename
+        String dirPath = "";// args[0]
+        String userDirectoryPath = System.getProperty("user.dir");
+        String filePath = userDirectoryPath + "/Tasca5/n1exercici5/";
+        String txtFilename = filePath; // args[1]
+        String serFilename = filePath;// args[2]
 
-        String dirPath = ""; // args[0]
-        //String userDirectoryPath = "src/main/java";
-        String filePath = "/Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/src/main/java/Tasca5/n1exercici5/";// args[1]
-        String txtFilename = ""; // args[2]
-        String serFilename = "";// args[3]
-
-        switch(args.length) {
-            case 0:
-                dirPath = "/Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/src/main/java";// default args[0]
-                //userDirectoryPath = System.getProperty("user.dir"); // default partial args[1]
-                //filePath = userDirectoryPath + "/Sprint1/src/main/java/Tasca5/n1exercici5/";// default args[1]
-                txtFilename = "SortedDirList.txt"; // default args[2]
-                serFilename = "Transporter.ser"; // default args[3]
-                break;
-            case 1:
-                dirPath = args[0];
-                //userDirectoryPath = System.getProperty("user.dir"); // default partial args[1]
-                //filePath = userDirectoryPath + "/Sprint1/src/main/java/Tasca5/n1exercici5/";// default args[1]
-                txtFilename = "SortedDirList.txt"; // default args[2]
-                serFilename = "Transporter.ser"; // default args[3]
-                break;
-            case 2:
-                dirPath = args[0];
-                //userDirectoryPath = System.getProperty("user.dir"); // default partial args[1]
-                //filePath = userDirectoryPath + "/Sprint1/src/main/java/Tasca5/n1exercici5/";// default args[1]
-                txtFilename = args[1]; // default args[2]
-                serFilename = "Transporter.ser"; // default args[3]
-                break;
-            case 3:
-                dirPath = args[0];
-                txtFilename = args[1]; // default args[2]
-                serFilename = args[2]; // default args[3]
-                break;
-        }
-
-
-        txtFilename = filePath + txtFilename;
-        serFilename = filePath + serFilename;
+        dirPath = (args.length > 0)? args[0] : userDirectoryPath;
+        txtFilename += (args.length > 1) ? args[1] : "SortedDirList.txt";
+        serFilename += (args.length == 3) ? args[2] : "Transporter.ser";
 
         File directory = new File(dirPath);
         if (directory.exists()) {
@@ -76,12 +44,4 @@ public class Main {
         Transporter Spock = new Transporter("Spock", "Half-vulcan, Half-human", "Lieutenant commander", "Vulcan");
         n1exercici5_tools.startTeletransportation(serFilename, Spock);
     }
-
-    //compile
-    // macbookprodenuria@MacBook-MacBook-Pro-de-MacBook java % javac Tasca5/n1exercici5/Main.java
-    // run
-    // default
-    // comands terminal macbookprodenuria@MacBook-MacBook-Pro-de-MacBook java % java Tasca5/n1exercici5/Main.java
-    // all args
-    // macbookprodenuria@MacBook-MacBook-Pro-de-MacBook java % java Tasca5/n1exercici5/Main.java /Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/ SortedDirList1.txt Transporter1.ser
 }

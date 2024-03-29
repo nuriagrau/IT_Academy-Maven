@@ -2,7 +2,6 @@ package Tasca5.n1exercici2;
 
 import java.io.File;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.Date;
 
 public class Main {
@@ -13,13 +12,6 @@ public class Main {
     */
     public static File[] getSortedDirFiles(File directory) {
         File[] sortedDirFiles = directory.listFiles();
-        /*Arrays.sort(sortedDirFiles, new Comparator<File>() {
-                    @Override
-                    public int compare(File a, File b) {
-
-                        return a.getName().compareTo(b.getName());
-                    }
-                });*/
         Arrays.sort(sortedDirFiles);
         return sortedDirFiles;
     }
@@ -48,8 +40,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        // full path directory can be main args
-        String dirPath = "/Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/src/main";
+        String dirPath = "";// args[0]
+        String userDirectoryPath = System.getProperty("user.dir");
+
+        dirPath = (args.length == 1)? args[0] : userDirectoryPath;
 
         // file object
         File directory= new File(dirPath);
