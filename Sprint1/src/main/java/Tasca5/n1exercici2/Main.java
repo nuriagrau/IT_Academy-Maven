@@ -22,13 +22,13 @@ public class Main {
             String identation = "    ";// 4 spaces like "(X) " notation
             if (filename.isDirectory()) {
                 identation = (level != 0)? identation.repeat(level): "";
-                System.out.println( identation + "\u2304 (D)\u202F" + filename.getName() + "   |Last Modified: " + dateLast);
+                System.out.println( identation + "\u2304 (D) " + filename.getName() + "   |Last Modified: " + dateLast);
                 level++; // before recursion add one level
                 displayDirContent(getSortedDirFiles(filename), level);
                 level --; // after recursion remove one level
             } else {
                 identation = (level != 0)? identation.repeat(level): "";
-                System.out.println(identation + "> (F)\u202F" + filename.getName() + "   |Last Modified: " + dateLast);
+                System.out.println(identation + "> (F) " + filename.getName() + "   |Last Modified: " + dateLast);
             }
         }
     }
