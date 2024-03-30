@@ -50,7 +50,5 @@ public class Main {
         File[] sortedDirFiles = getSortedDirFiles(directory);
         System.out.println(displayDirectoryHeader(dirPath));
         displayDirContent(sortedDirFiles, 0);
-
     }
-
 }
