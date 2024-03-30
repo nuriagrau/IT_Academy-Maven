@@ -1,4 +1,4 @@
-package Tasca6.n1exercici1;
+package Tasca6.S1_T06_n1exercici1;
 
 public class NoGenericMethods {
     private Animal animal1;

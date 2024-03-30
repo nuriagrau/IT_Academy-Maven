@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="updated removed half space to avoid problems">
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/n1exercici1/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/n1exercici1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/n1exercici1/NoGenericMethods.java" afterDir="false" />
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="first version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici5/Transporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/Transporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/n1exercici5/n1exercici5_tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/S1_T05_n1exercici5_tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/n1exercici1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/S1_T06_n1exercici1/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/n1exercici1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/S1_T06_n1exercici1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/n1exercici1/NoGenericMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/S1_T06_n1exercici1/NoGenericMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711821659967</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="first version">
+      <option name="closed" value="true" />
+      <created>1711828053909</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711828053909</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,6 +408,7 @@
     <MESSAGE value="final changes" />
     <MESSAGE value="updated in Github" />
     <MESSAGE value="updated removed half space to avoid problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated removed half space to avoid problems" />
+    <MESSAGE value="first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="first version" />
   </component>
 </project>

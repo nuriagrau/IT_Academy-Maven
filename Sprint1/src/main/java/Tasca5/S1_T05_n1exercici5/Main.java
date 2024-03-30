@@ -1,4 +1,4 @@
-package Tasca5.n1exercici5;
+package Tasca5.S1_T05_n1exercici5;
 
 import java.io.*;
 
@@ -7,7 +7,7 @@ public class Main {
         // TODO Ara el programa ha de serialitzar un Objecte Java a un fitxer.ser i després l’ha de desserialitzar.
         String dirPath = "";// args[0]
         String userDirectoryPath = System.getProperty("user.dir");
-        String filePath = userDirectoryPath + "/Tasca5/n1exercici5/";
+        String filePath = userDirectoryPath + "/Tasca5/S1_T05_n1exercici5/";
         String txtFilename = filePath; // args[1]
         String serFilename = filePath;// args[2]
 
@@ -18,14 +18,14 @@ public class Main {
         File directory = new File(dirPath);
         if (directory.exists()) {
             try {
-                File[] sortedDirFiles = n1exercici5_tools.getSortedDirFiles(directory);
+                File[] sortedDirFiles = S1_T05_n1exercici5_tools.getSortedDirFiles(directory);
                 try {
-                    String header = n1exercici5_tools.displayDirectoryHeader(dirPath);
-                    String dirContent = n1exercici5_tools.listDirContent(sortedDirFiles, 0);
-                    n1exercici5_tools.writeDirectoryToFile(txtFilename, header, dirContent);
+                    String header = S1_T05_n1exercici5_tools.displayDirectoryHeader(dirPath);
+                    String dirContent = S1_T05_n1exercici5_tools.listDirContent(sortedDirFiles, 0);
+                    S1_T05_n1exercici5_tools.writeDirectoryToFile(txtFilename, header, dirContent);
                     try {
                         File file = new File(txtFilename);
-                        n1exercici5_tools.readAndShowTXT(file);
+                        S1_T05_n1exercici5_tools.readAndShowTXT(file);
                     } catch (IOException e) {
                         System.err.println(e.getMessage());
                     }
@@ -42,6 +42,6 @@ public class Main {
 
         // Serialization and Deserialization of an object
         Transporter Spock = new Transporter("Spock", "Half-vulcan, Half-human", "Lieutenant commander", "Vulcan");
-        n1exercici5_tools.startTeletransportation(serFilename, Spock);
+        S1_T05_n1exercici5_tools.startTeletransportation(serFilename, Spock);
     }
 }

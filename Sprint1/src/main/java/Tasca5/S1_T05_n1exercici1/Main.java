@@ -1,7 +1,6 @@
-package Tasca5.n1exercici1;
+package Tasca5.S1_T05_n1exercici1;
 
 import java.io.File;
-import java.util.Comparator;
 import java.util.Arrays;
 
 public class Main {

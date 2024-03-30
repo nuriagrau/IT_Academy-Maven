@@ -1,4 +1,4 @@
-package Tasca5.n1exercici2;
+package Tasca5.S1_T05_n1exercici2;
 
 import java.io.File;
 import java.util.Arrays;

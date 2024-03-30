@@ -1,4 +1,4 @@
-package Tasca5.n1exercici5;
+package Tasca5.S1_T05_n1exercici5;
 
 import java.io.*;
 

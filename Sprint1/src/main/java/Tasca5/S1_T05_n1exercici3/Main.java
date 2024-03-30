@@ -1,4 +1,4 @@
-package Tasca5.n1exercici3;
+package Tasca5.S1_T05_n1exercici3;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -64,7 +64,7 @@ public class Main {
 
         dirPath = (args.length > 0)? args[0] : userDirectoryPath;
         txtFilename = (args.length == 2) ? args[1] : "SortedDirList.txt";
-        String filePath = userDirectoryPath + "/Tasca5/n1exercici3/" + txtFilename;
+        String filePath = userDirectoryPath + "/Tasca5/S1_T05_n1exercici3/" + txtFilename;
 
         File directory = new File(dirPath);
         if (directory.exists()) {

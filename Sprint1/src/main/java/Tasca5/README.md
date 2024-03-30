@@ -16,7 +16,7 @@ To compile write in console/terminal:
 
 in my Mac it would be:
 
-    javac Tasca5/n1exercici5/Main.java
+    javac Tasca5/S1_T05_n1exercici5/Main.java
 
 ### 3. *Run.* 
 To run the program you can run it with some default values or with some specific values.
@@ -27,7 +27,7 @@ The general syntax is:
 #### 3.1 - Default. 
 This program can run with a default directory to read and default file names to write to (.txt and/or .ser):
           
-    java Tasca5/n1exercici5/Main.java
+    java Tasca5/S1_T05_n1exercici5/Main.java
 
 #### 3.2 - With args. 
 The program can also run with 1, 2 or 3 arg.
@@ -39,7 +39,7 @@ For n1exercici1 to n1exercici5. General syntax is:
 
 in my Mac it would be:
             
-    java Tasca5/n1exercici5/Main.java /Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/
+    java Tasca5/S1_T05_n1exercici5/Main.java /Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/
 
 #### . args[0], args[1]: txtFile to write to. 
 For n1exercici3 to n1exercici5. The file will be created in the n1exercici5 package. General syntax is:
@@ -48,7 +48,7 @@ For n1exercici3 to n1exercici5. The file will be created in the n1exercici5 pack
 
 in my Mac an example would be:
 
-    Tasca5/n1exercici5/Main.java /Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/ newSortedDirList.txt
+    Tasca5/S1_T05_n1exercici5/Main.java /Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/ newSortedDirList.txt
 
 #### . args[0], args[1], args[2] serFile to write for serialization/deserialization. 
 For n1exercici5 only. The files will be created in the n1exercici5 package. General syntax is:
@@ -57,4 +57,4 @@ For n1exercici5 only. The files will be created in the n1exercici5 package. Gene
 
 in my Mac an example would be:
             
-    java Tasca5/n1exercici5/Main.java /Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/ newSortedDirList.txt newTransporter.ser
+    java Tasca5/S1_T05_n1exercici5/Main.java /Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/ newSortedDirList.txt newTransporter.ser

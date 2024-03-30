@@ -1,11 +1,11 @@
-package Tasca5.n1exercici4;
+package Tasca5.S1_T05_n1exercici5;
 
 import java.io.*;
 import java.util.Arrays;
 import java.util.Date;
 
-public class Main {
-    // TODO Afegeix la funcionalitat de llegir qualsevol fitxer TXT i mostra el seu contingut per consola.
+public class S1_T05_n1exercici5_tools {
+
     public static File[] getSortedDirFiles(File directory) {
         File[] sortedDirFiles = directory.listFiles();
         Arrays.sort(sortedDirFiles);
@@ -37,6 +37,7 @@ public class Main {
             writer.write(header);
             writer.newLine();
             writer.write(dirContent);
+            writer.newLine();
             writer.close();
             System.out.println("El contingut del directory s'ha guardat correctament a " + filePath);
         } catch (Exception e) {
@@ -51,7 +52,7 @@ public class Main {
         return header;
     }
 
-    public static void readAndShowTXT(File file) throws IOException{
+    public static void readAndShowTXT(File file) throws IOException {
         BufferedReader bReader = new BufferedReader(new FileReader(file));
         String string;
         System.out.println(file.getName() + " content is :");
@@ -61,38 +62,35 @@ public class Main {
         bReader.close();
     }
 
-    public static void main(String[] args) {
-        String dirPath = "";// args[0]
-        String txtFilename = ""; // args[1]
-        String userDirectoryPath = System.getProperty("user.dir");
-
-        dirPath = (args.length > 0)? args[0] : userDirectoryPath;
-        txtFilename = (args.length == 2) ? args[1] : "SortedDirList.txt";
-        String filePath = userDirectoryPath + "/Tasca5/n1exercici4/" + txtFilename;
-
-        File directory = new File(dirPath);
-        if (directory.exists()) {
-            try {
-                File[] sortedDirFiles = getSortedDirFiles(directory);
-                try {
-                    String header = displayDirectoryHeader(dirPath);
-                    String dirContent = listDirContent(sortedDirFiles, 0);
-                    writeDirectoryToFile(filePath, header, dirContent);
-                    try {
-                        File file = new File(filePath);
-                        readAndShowTXT(file);
-                    } catch (IOException e) {
-                        System.err.println(e.getMessage());
-                    }
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
-                }
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
-                System.out.println("Hi ha hagut un problema al llegir el directori");
-            }
-        } else {
-            System.out.println("The directory does not exist");
+    public static void startTeletransportation(String filename, Transporter object) {
+        // Serialization
+        try {
+            // Saving of object in a file
+            FileOutputStream file = new FileOutputStream(filename);
+            ObjectOutputStream out = new ObjectOutputStream(file);
+            // method for serialization of object
+            out.writeObject(object);
+            out.close();
+            file.close();
+            System.out.println("Object has been serialized\n" + "Data before Deserialization: " + object.toString());
+            // value change during process
+            object.newTeletransportations_count();
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+        object = null;
+        // Deserialization
+        try {
+            // Reading the object from a file
+            ObjectInputStream in = new ObjectInputStream(new FileInputStream(filename));
+            // method for deserialization of object
+            object = (Transporter) in.readObject();
+            in.close();
+            System.out.println("Object has been deserialized\n" + "Data after Deserialization: " + object.toString());
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        } catch (ClassNotFoundException e) {
+            System.out.println(e.getMessage());
         }
     }
 }
