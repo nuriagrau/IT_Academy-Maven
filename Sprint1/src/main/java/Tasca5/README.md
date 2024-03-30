@@ -37,7 +37,7 @@ For n1exercici1 to n1exercici5. General syntax is:
 
     java [packagePath/mainFile.java] [directoryPath]
 
-in my GitHub repository it would be:
+in my Mac it would be:
             
     java Tasca5/n1exercici5/Main.java /Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/
 
@@ -46,7 +46,7 @@ For n1exercici3 to n1exercici5. The file will be created in the n1exercici5 pack
 
     java [packagePath/mainFile.java] [directoryPath] [file.txt]
 
-in my GitHub repository an example would be:
+in my Mac an example would be:
 
     Tasca5/n1exercici5/Main.java /Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/ newSortedDirList.txt
 
