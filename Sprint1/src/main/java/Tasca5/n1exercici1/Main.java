@@ -39,9 +39,10 @@ public class Main {
 
         // file object
         File directory= new File(dirPath);
-        File[] sortedDirFiles = getSortedDirFiles(directory);
-        displayDirContent(sortedDirFiles);
-
+        if (directory.exists()) {
+            File[] sortedDirFiles = getSortedDirFiles(directory);
+            displayDirContent(sortedDirFiles);
+        }
     }
 
 }

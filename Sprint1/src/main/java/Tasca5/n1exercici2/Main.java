@@ -47,8 +47,10 @@ public class Main {
 
         // file object
         File directory= new File(dirPath);
-        File[] sortedDirFiles = getSortedDirFiles(directory);
-        System.out.println(displayDirectoryHeader(dirPath));
-        displayDirContent(sortedDirFiles, 0);
+        if (directory.exists()) {
+            File[] sortedDirFiles = getSortedDirFiles(directory);
+            System.out.println(displayDirectoryHeader(dirPath));
+            displayDirContent(sortedDirFiles, 0);
+        }
     }
 }
