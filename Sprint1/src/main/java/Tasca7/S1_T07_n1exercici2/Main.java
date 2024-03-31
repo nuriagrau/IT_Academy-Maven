@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //@SuppressWarnings("deprecation") //  suppress or ignore warnings coming from the compiler
+        @SuppressWarnings("deprecation") //  suppress or ignore warnings coming from the compiler
 
         TreballadorPresencial JohnDoe = new TreballadorPresencial("John", "Doe",10.77, 55.00);
 
