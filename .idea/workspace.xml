@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="First commit">
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Omitted comment on @SupressWarnings">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca7/S1_T07_n1exercici2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca7/S1_T07_n1exercici2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -415,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711897051030</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Omitted comment on @SupressWarnings">
+      <option name="closed" value="true" />
+      <created>1711897115729</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1711897115729</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,6 +457,7 @@
     <MESSAGE value="first version" />
     <MESSAGE value="Added S1_T05_ to package name" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Omitted comment on @SupressWarnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Omitted comment on @SupressWarnings" />
   </component>
 </project>

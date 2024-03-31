@@ -15,10 +15,12 @@ public class Main {
 
         // Same preuHora and horesTreballadesMes, different results due @override of calcularSou() for TreballadorPresencial
         System.out.println(JohnDoe.toString() + " sou=" + JohnDoe.calcularSou(160));
-        JohnDoe.calculCostTransport(30, 1.607f, 0.44f);
+        double costTransport = JohnDoe.calculCostTransport(30, 1.607f, 0.44f);
+        System.out.println("El cost de transport és de : " + costTransport + " euros");
 
         // Same preuHora and horesTreballadesMes, different results due @override of calcularSou() for TreballadorOnline
         System.out.println(JaneDoe.toString() + " sou=" + JaneDoe.calcularSou(160));
-        JaneDoe.calculTarifaInternet(300, 0.105f);
+        float costInternet = JaneDoe.calculTarifaInternet(300, 0.105f);
+        System.out.println("El cost d'internet és de: " + costInternet + " euros");
     }
 }
