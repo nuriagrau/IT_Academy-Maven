@@ -8,6 +8,11 @@ public class TreballadorPresencial extends Treballador{
         this.benzina = benzina;
     }
 
+    // Javadoc comment follows
+    /**
+     * @deprecated
+     * depracated because of this calculation including desgastKm is no longer used
+     */
     @Deprecated
     public double calculCostTransport(float km, float preuBenzina, float desgastKm) {
         return (km * this.benzina) + (km * desgastKm);

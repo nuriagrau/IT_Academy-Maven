@@ -8,6 +8,11 @@ public class TreballadorOnline extends Treballador {
         this.preuTarifaPlanaInternet = 31.50d;
     }
 
+    // Javadoc comment follows
+    /**
+     * @deprecated
+     * depracated because of the use of Internet flat rate
+     */
     @Deprecated
     public float calculTarifaInternet(int usedMb, float priceMbMonth) {
         return usedMb * priceMbMonth;
