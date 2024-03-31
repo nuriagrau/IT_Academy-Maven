@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Added S1_T05_ to package name">
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/S1_T06_n1exercici2/GenericMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/S1_T06_n1exercici2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/S1_T06_n1exercici2/Persona.java" afterDir="false" />
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca7/S1_T07_n1exercici1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca7/S1_T07_n1exercici1/Treballador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca7/S1_T07_n1exercici1/TreballadorOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca7/S1_T07_n1exercici1/TreballadorPresencial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +28,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nuriagrau&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e5505307-779c-42c7-8fd6-8716f7c597eb" />
+        <option name="url" value="git@github.com:nuriagrau/IT_Academy-Maven.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -377,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711828955976</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1711879041978</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1711879041978</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -396,7 +422,6 @@
     <MESSAGE value="Throws added to method signature" />
     <MESSAGE value="Primer Commit" />
     <MESSAGE value="Canvis neteja codi sense efecte" />
-    <MESSAGE value="First commit" />
     <MESSAGE value="Fixed unnecessary toString" />
     <MESSAGE value="New imporved version" />
     <MESSAGE value="New improved version" />
@@ -410,6 +435,7 @@
     <MESSAGE value="updated removed half space to avoid problems" />
     <MESSAGE value="first version" />
     <MESSAGE value="Added S1_T05_ to package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added S1_T05_ to package name" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
