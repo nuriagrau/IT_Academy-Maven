@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Addition of javadoc comments">
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici5/Functional_Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici7/Main.java" afterDir="false" />
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="First versions">
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici8/Functional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici8/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +19,8 @@
       <list>
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -448,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711898037236</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="First versions">
+      <option name="closed" value="true" />
+      <created>1712143585403</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1712143585403</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,6 +486,7 @@
     <MESSAGE value="Omitted comment on @SupressWarnings" />
     <MESSAGE value="Print @Depracated methods results" />
     <MESSAGE value="Addition of javadoc comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addition of javadoc comments" />
+    <MESSAGE value="First versions" />
+    <option name="LAST_COMMIT_MESSAGE" value="First versions" />
   </component>
 </project>
