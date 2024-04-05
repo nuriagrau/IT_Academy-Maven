@@ -1,15 +1,18 @@
 package Tasca5.S1_T05_n1exercici5;
 
 import java.io.*;
+import static Tasca5.S1_T05_n1exercici5.Tools.*;
+
 
 public class Main {
     public static void main(String[] args) {
         // TODO Ara el programa ha de serialitzar un Objecte Java a un fitxer.ser i després l’ha de desserialitzar.
         String dirPath = "";// args[0]
-        String userDirectoryPath = System.getProperty("user.dir");
+        String userDirectoryPath = System.getProperty("user.dir") + "/Sprint1/src/main/java";
         String filePath = userDirectoryPath + "/Tasca5/S1_T05_n1exercici5/";
         String txtFilename = filePath; // args[1]
         String serFilename = filePath;// args[2]
+        int level = 0;
 
         dirPath = (args.length > 0)? args[0] : userDirectoryPath;
         txtFilename += (args.length > 1) ? args[1] : "SortedDirList.txt";
@@ -18,14 +21,14 @@ public class Main {
         File directory = new File(dirPath);
         if (directory.exists()) {
             try {
-                File[] sortedDirFiles = S1_T05_n1exercici5_tools.getSortedDirFiles(directory);
+                File[] sortedDirFiles = getSortedDirFiles(directory);
                 try {
-                    String header = S1_T05_n1exercici5_tools.displayDirectoryHeader(dirPath);
-                    String dirContent = S1_T05_n1exercici5_tools.listDirContent(sortedDirFiles, 0);
-                    S1_T05_n1exercici5_tools.writeDirectoryToFile(txtFilename, header, dirContent);
+                    String header = displayDirectoryHeader(dirPath);
+                    String dirContent = listDirContent(sortedDirFiles, level);
+                    writeDirectoryToFile(txtFilename, header, dirContent);
                     try {
                         File file = new File(txtFilename);
-                        S1_T05_n1exercici5_tools.readAndShowTXT(file);
+                        readAndShowTXT(file);
                     } catch (IOException e) {
                         System.err.println(e.getMessage());
                     }
@@ -42,6 +45,6 @@ public class Main {
 
         // Serialization and Deserialization of an object
         Transporter Spock = new Transporter("Spock", "Half-vulcan, Half-human", "Lieutenant commander", "Vulcan");
-        S1_T05_n1exercici5_tools.startTeletransportation(serFilename, Spock);
+        startTeletransportation(serFilename, Spock);
     }
 }

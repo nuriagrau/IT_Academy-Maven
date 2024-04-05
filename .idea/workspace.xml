@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Ready for delivery">
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n2exercici1/Config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n2exercici1/Main.java" afterDir="false" />
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="First commit for trials with paths">
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici1/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici2/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici3/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici4/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n2exercici1/Methods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/S1_T05_n1exercici5_tools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/S1_T05_n1exercici5_tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/Transporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/n1exercici5_tools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n2exercici1/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n2exercici1/Config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n2exercici1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n2exercici1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -479,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712311718933</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="First commit for trials with paths">
+      <option name="closed" value="true" />
+      <created>1712313437863</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1712313437863</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -517,6 +540,7 @@
     <MESSAGE value="Addition of javadoc comments" />
     <MESSAGE value="First versions" />
     <MESSAGE value="Ready for delivery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready for delivery" />
+    <MESSAGE value="First commit for trials with paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit for trials with paths" />
   </component>
 </project>

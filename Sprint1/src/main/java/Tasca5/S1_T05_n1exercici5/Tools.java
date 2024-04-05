@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Arrays;
 import java.util.Date;
 
-public class S1_T05_n1exercici5_tools {
+public class Tools {
 
     public static File[] getSortedDirFiles(File directory) {
         File[] sortedDirFiles = directory.listFiles();
