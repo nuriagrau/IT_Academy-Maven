@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="First versions">
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca4/S1_T04_n2exercici1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca4/S1_T04_n2exercici1/StringLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/test/java/Tasca4/S1_T04_n2exercici1/StringLengthTest.java" afterDir="false" />
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Ready for delivery">
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n2exercici1/Config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n2exercici1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprint1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca4/S1_T04_n1exercici2/CalculDni.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca4/S1_T04_n1exercici2/CalculDni.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +103,9 @@
       <recent name="Tasca4.S1_T04_n1exercici3" />
       <recent name="Tasca4.S1_T04_n1exercici2" />
       <recent name="Tasca4.S1_T04_n1exercici1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tasca5.S1_T05_n2exercici1" />
     </key>
   </component>
   <component name="RunManager">
@@ -464,7 +463,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712150552490</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Ready for delivery">
+      <option name="closed" value="true" />
+      <created>1712309206494</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1712309206494</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Ready for delivery">
+      <option name="closed" value="true" />
+      <created>1712311718933</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1712311718933</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,6 +516,7 @@
     <MESSAGE value="Print @Depracated methods results" />
     <MESSAGE value="Addition of javadoc comments" />
     <MESSAGE value="First versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="First versions" />
+    <MESSAGE value="Ready for delivery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready for delivery" />
   </component>
 </project>
