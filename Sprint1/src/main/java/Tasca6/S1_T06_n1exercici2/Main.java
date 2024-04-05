@@ -1,5 +1,7 @@
 package Tasca6.S1_T06_n1exercici2;
 
+import static Tasca6.S1_T06_n1exercici2.GenericMethods.*;
+
 public class Main {
     //TODO Crea una classe anomenada Persona amb els atributs nom, cognom i edat. Després crea una classe anomenada
     // GenericMethods amb un mètode genèric que accepti tres arguments de tipus genèric. Aquest mètode només ha
@@ -13,11 +15,11 @@ public class Main {
         String genericMethods = "Els mètodes genèrics accepten qualsevol tipus de paràmetre.";
         int numberOfParameters = 3;
 
-        GenericMethods.genericDisplay(JohnDoe, genericMethods, numberOfParameters);
+        genericDisplay(JohnDoe, genericMethods, numberOfParameters);
 
-        GenericMethods.genericDisplay(genericMethods, numberOfParameters, JohnDoe);
+        genericDisplay(genericMethods, numberOfParameters, JohnDoe);
 
-        GenericMethods.genericDisplay(numberOfParameters, JohnDoe, genericMethods);
+        genericDisplay(numberOfParameters, JohnDoe, genericMethods);
     }
 
 }
