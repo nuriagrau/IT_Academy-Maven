@@ -8,8 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Ready for Delivery Commit">
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n2exercici1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n2exercici2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n2exercici3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n2exercici3/Operand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n2exercici4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -526,7 +527,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712485627538</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Ready for Delivery Commit">
+      <option name="closed" value="true" />
+      <created>1712502507080</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1712502507080</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
