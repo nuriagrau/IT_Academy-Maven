@@ -8,10 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Ready for Delivery Commit">
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n2exercici3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n2exercici3/Operand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n2exercici4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca4/S1_T04_n1exercici1/Year.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca4/S1_T04_n1exercici1/Year.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/S1_T05_n1exercici5/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/S1_T06_n2exercici1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca6/S1_T06_n2exercici1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca7/S1_T07_n1exercici1/Treballador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca7/S1_T07_n1exercici1/Treballador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca7/S1_T07_n1exercici1/TreballadorPresencial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca7/S1_T07_n1exercici1/TreballadorPresencial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici5/Functional_Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca8/S1_T08_n1exercici5/Functional_Interface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/test/java/Tasca4/S1_T04_n1exercici2/CalculDniTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/test/java/Tasca4/S1_T04_n1exercici2/CalculDniTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprint1/src/test/java/Tasca4/S1_T04_n1exercici3/ArrayIndexOutOfBoundsExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/test/java/Tasca4/S1_T04_n1exercici3/ArrayIndexOutOfBoundsExceptionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +88,8 @@
     &quot;JUnit.YearTest.addMonths.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.YearTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.YearTest.test_value.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Maven [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Maven [test].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -535,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712502507080</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Ready for Delivery Commit">
+      <option name="closed" value="true" />
+      <created>1712567454700</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1712567454700</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

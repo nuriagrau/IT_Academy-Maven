@@ -1,8 +1,8 @@
 package Tasca7.S1_T07_n1exercici1;
 
 abstract class Treballador {
-    private String nom;
-    private String cognom;
+    protected String nom;
+    protected String cognom;
     double preuHora;
 
     public Treballador(String nom, String cognom, double preuHora) {

@@ -34,7 +34,7 @@ public class Main {
     public static List<String> selectOWords(List<String> words, String c, int nLetters) {
         return words
                 .stream()
-                .filter(w -> w.toLowerCase().contains(c) && w.length() == nLetters)
+                .filter(w -> w.toLowerCase().contains(c) && w.length() > nLetters)
                 .collect(Collectors.toList());
     }
 }

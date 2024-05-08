@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
         String dirPath = "";// args[0]
         String txtFilename = ""; // args[1]
-        String userDirectoryPath = System.getProperty("user.dir") + "/Sprint1/src/main/java";
+        String userDirectoryPath = System.getProperty("user.dir") + "/src/main/java";
 
         dirPath = (args.length > 0)? args[0] : userDirectoryPath;
         txtFilename = (args.length == 2) ? args[1] : "SortedDirList.txt";

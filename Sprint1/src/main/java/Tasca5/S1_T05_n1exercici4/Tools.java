@@ -6,13 +6,20 @@ import java.util.Date;
 
 public class Tools {
 
-    public static File[] getSortedDirFiles(File directory) {
+    private static int level = 0;
+    public static String readDirectory(File directory) {
+        File[] sortedDirFiles = getSortedDirFiles(directory);
+        String dirContent = listDirContent(sortedDirFiles, level);
+        return dirContent;
+    }
+
+    public static File[] getSortedDirFiles(File directory){
         File[] sortedDirFiles = directory.listFiles();
         Arrays.sort(sortedDirFiles);
         return sortedDirFiles;
     }
 
-    public static String listDirContent(File[] sortedDirFiles, int level) throws Exception{
+    public static String listDirContent(File[] sortedDirFiles, int level) {
         String dirContent = "";
         for (File filename : sortedDirFiles) {
             Date dateLast = new Date(filename.lastModified());
@@ -31,18 +38,12 @@ public class Tools {
         return dirContent;
     }
 
-    public static void writeDirectoryToFile(String filePath, String header, String dirContent) {
-        File newFile = new File(filePath);
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) { // FileWriter creates a new file
-            writer.write(header);
-            writer.newLine();
-            writer.write(dirContent);
-            writer.close();
-            System.out.println("El contingut del directory s'ha guardat correctament a " + filePath);
-        } catch (Exception e) {
-            System.err.println(e.getMessage());
-            System.out.println("Hi ha hagut un problema durant el procés d'escriptura al arxiu.");
-        }
+    public static void writeDirectoryToFile(String filePath, String header, String dirContent) throws Exception {
+        BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
+        writer.write(header);
+        writer.newLine();
+        writer.write(dirContent);
+        writer.close();
     }
 
     public static String displayDirectoryHeader(String dirPath) {

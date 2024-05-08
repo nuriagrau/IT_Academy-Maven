@@ -17,6 +17,7 @@ public class Main {
 
         genericDisplay(numberOfParameters, genericMethods, JaneDoe);
 
+        genericDisplay(JohnDoe, genericMethods, JaneDoe);
 
     }
 

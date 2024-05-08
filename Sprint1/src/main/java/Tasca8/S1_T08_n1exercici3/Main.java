@@ -6,7 +6,6 @@ import java.util.List;
 public class Main {
 
     // TODO Crea una llista amb els noms dels mesos de l’any. Imprimeix tots els elements de la llista amb una lambda.
-
     public static void main(String[] args) {
 
         List<String> year = new ArrayList<>();
@@ -24,7 +23,6 @@ public class Main {
         year.add("November");
         year.add("December");
 
-        // Lambda expression
         year.forEach(m -> System.out.println(m));
 
     }

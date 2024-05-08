@@ -11,6 +11,6 @@ public class TreballadorOnline extends Treballador {
     @Override
     public double calcularSou(double horesTreballadesMes) {
         double sou = (horesTreballadesMes * super.getPreuHora()) + this.preuTarifaPlanaInternet;
-        return (horesTreballadesMes * super.getPreuHora()) + this.preuTarifaPlanaInternet;
+        return sou;
     }
 }

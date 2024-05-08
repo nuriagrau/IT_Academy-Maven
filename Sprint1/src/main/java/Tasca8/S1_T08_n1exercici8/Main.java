@@ -10,22 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         Functional reverseMethod = (String s) -> new StringBuilder(s).reverse().toString();
-                /*char[] reversed = s.toCharArray();
-                //
-                List<Character> reversedArray = new ArrayList<>();
-                for(char c : reversed) {
-                    reversedArray.add(c);
-                }
-                Collections.reverse(reversedArray);
-                return reversedArray.toString();*/
-
-                /*StringBuffer sbr = new StringBuffer(s);
-                return sbr.reverse().toString();*/
-
-                /*StringBuilder sb = new StringBuilder(s);
-                return sb.reverse().toString();*/
-
+        
         System.out.println(reverseMethod.reverse("Hello"));
-
     }
 }

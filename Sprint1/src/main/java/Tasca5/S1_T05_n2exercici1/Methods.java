@@ -3,6 +3,7 @@ package Tasca5.S1_T05_n2exercici1;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -14,7 +15,7 @@ public class Methods {
         return sortedDirFiles;
     }
 
-    public static String listDirContent(File[] sortedDirFiles, int level) throws Exception{
+    public static String listDirContent(File[] sortedDirFiles, int level) {
         String dirContent = "";
         for (File filename : sortedDirFiles) {
             Date dateLast = new Date(filename.lastModified());
@@ -39,7 +40,6 @@ public class Methods {
             writer.write(header);
             writer.newLine();
             writer.write(dirContent);
-            writer.close();
             System.out.println("El contingut del directory s'ha guardat correctament a " + filePath);
         } catch (Exception e) {
             System.err.println(e.getMessage());

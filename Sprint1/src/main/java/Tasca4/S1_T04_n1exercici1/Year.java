@@ -8,10 +8,12 @@ public class Year {
     private List<String> year;
 
     public Year() {
+
         this.year = new ArrayList<>();
     }
 
     public List<String> getYear() {
+
         return this.year;
     }
 

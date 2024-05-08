@@ -18,10 +18,8 @@ public class Main {
 
         TreballadorOnline JaneDoe = new TreballadorOnline("Jane", "Doe",10.77);
 
-        // Same preuHora and horesTreballadesMes, different results due @override of calcularSou() for TreballadorPresencial
-        System.out.println(JohnDoe.toString() + " sou=" + JohnDoe.calcularSou(160));
+        System.out.println(JohnDoe + " sou=" + JohnDoe.calcularSou(160));
 
-        // Same preuHora and horesTreballadesMes, different results due @override of calcularSou() for TreballadorOnline
-        System.out.println(JaneDoe.toString() + " sou=" + JaneDoe.calcularSou(160));
+        System.out.println(JaneDoe + " sou=" + JaneDoe.calcularSou(160));
     }
 }

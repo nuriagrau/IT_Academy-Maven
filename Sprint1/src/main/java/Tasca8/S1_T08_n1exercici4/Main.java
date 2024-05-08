@@ -25,9 +25,6 @@ public class Main {
         year.add("November");
         year.add("December");
 
-        // Method reference calling
         year.forEach(System.out::println);
-
-
     }
 }

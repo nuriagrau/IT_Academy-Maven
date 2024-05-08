@@ -26,13 +26,13 @@ public class User {
             this.name = name;
         }
 
-    public static @interface JsonSerializable {
-        public @interface JsonElement {
-            public String key() default "";
+    public @interface JsonSerializable {
+         @interface JsonElement {
+             String key() default "";
         }
 
         @JsonElement(key = "filePath")
-        String filepath = "/Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/Sprint1/src/main/java/Tasca7/S1_T07_n2exercici1/jackson_user.json";
+        String filepath = System.getProperty("user.dir") + "/src/main/java/Tasca7/S1_T07_n2exercici1/jackson_user.json";
 
     }
 

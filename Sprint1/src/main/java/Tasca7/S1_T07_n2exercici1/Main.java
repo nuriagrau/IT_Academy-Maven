@@ -1,6 +1,5 @@
 package Tasca7.S1_T07_n2exercici1;
 
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.*;
@@ -16,9 +15,5 @@ public class Main {
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.writeValue(new File(User.JsonSerializable.filepath), user);
 
-
     }
-
-
-
 }

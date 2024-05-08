@@ -80,7 +80,7 @@ public class Tools {
         }
         object = null;
         // Deserialization
-        try {
+        try {// posar object  linea 85 dins try() per evitar close
             // Reading the object from a file
             ObjectInputStream in = new ObjectInputStream(new FileInputStream(filename));
             // method for deserialization of object
