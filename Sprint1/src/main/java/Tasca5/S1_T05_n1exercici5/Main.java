@@ -28,7 +28,9 @@ public class Main {
                     writeDirectoryToFile(txtFilename, header, dirContent);
                     readAndShowTXT(txtFilename);
                 } catch (IOException e) {
-                    System.err.println(e.getMessage());
+                    System.err.println("Error al escriure a l'arxiu" + e.getMessage());
+                } catch (Exception e) {
+                    System.err.println("Error al llegir l'arxiu TXT: " + e.getMessage());
                 }
             } else {
                 System.out.println("The directory is empty.");

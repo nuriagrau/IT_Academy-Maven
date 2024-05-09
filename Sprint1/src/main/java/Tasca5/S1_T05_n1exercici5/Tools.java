@@ -49,7 +49,7 @@ public class Tools {
         return header;
     }
 
-    public static void readAndShowTXT(String txtFilename) throws IOException {
+    public static void readAndShowTXT(String txtFilename) throws Exception {
         File file = new File(txtFilename);
         BufferedReader bReader = new BufferedReader(new FileReader(file));
         String string;

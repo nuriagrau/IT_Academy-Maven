@@ -16,19 +16,19 @@ public class Main {
         File directory = new File(dirPath);
 
         if (directory.exists()) {
-            try {
-                String dirContent = readDirectory(directory);
-                String header = displayDirectoryHeader(dirPath);
-                if (dirContent != null) {
+            String dirContent = readDirectory(directory);
+            String header = displayDirectoryHeader(dirPath);
+            if (dirContent != null) {
+                try {
                     writeDirectoryToFile(filePath, header, dirContent);
                     readAndShowTXT(filePath);
-                } else {
-                    System.out.println("The directory is empty.");
-                }
                 } catch (IOException e) {
                     System.err.println("Error al escriure a l'arxiu" + e.getMessage());
-            } catch (Exception e) {
-                System.err.println("Error al llegir l'arxiu TXT: " + e.getMessage());
+                } catch (Exception e) {
+                    System.err.println("Error al llegir l'arxiu TXT: " + e.getMessage());
+                }
+            } else {
+                System.out.println("The directory is empty.");
             }
         } else
             System.out.println("The directory does not exist");

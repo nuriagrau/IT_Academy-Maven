@@ -38,7 +38,7 @@ public class Tools {
         return dirContent;
     }
 
-    public static void writeDirectoryToFile(String filePath, String header, String dirContent) throws Exception {
+    public static void writeDirectoryToFile(String filePath, String header, String dirContent) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
         writer.write(header);
         writer.newLine();
@@ -52,7 +52,7 @@ public class Tools {
         return header;
     }
 
-    public static void readAndShowTXT(String filePath) throws IOException {
+    public static void readAndShowTXT(String filePath) throws Exception {
         File file = new File(filePath);
         String string;
         BufferedReader bReader = new BufferedReader(new FileReader(file));

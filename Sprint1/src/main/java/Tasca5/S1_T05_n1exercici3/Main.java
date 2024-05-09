@@ -22,16 +22,16 @@ public class Main {
         File directory = new File(dirPath);
         if (directory.exists()) {
             File[] sortedDirFiles = getSortedDirFiles(directory);
-                if (sortedDirFiles != null) {
-                    try {
-                        writeDirectoryToFile(filePath, displayDirectoryHeader(dirPath), listDirContent(sortedDirFiles, 0));
-                        System.out.println("El contingut del directory s'ha guardat correctament a " + filePath);
-                    } catch (IOException e) {
-                        System.out.println(e.getMessage() + "Hi ha hagut un problema durant el procés d'escriptura al arxiu.");
-                    }
-                }else {
-                        System.out.println("The directory is empty.");
-                    }
+            if (sortedDirFiles != null) {
+                try {
+                    writeDirectoryToFile(filePath, displayDirectoryHeader(dirPath), listDirContent(sortedDirFiles, 0));
+                    System.out.println("El contingut del directory s'ha guardat correctament a " + filePath);
+                } catch (IOException e) {
+                    System.out.println(e.getMessage() + "Hi ha hagut un problema durant el procés d'escriptura al arxiu.");
+                }
+            }else {
+                System.out.println("The directory is empty.");
+            }
         } else {
           System.out.println("The directory does not exist");
         }
