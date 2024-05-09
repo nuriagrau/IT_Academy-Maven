@@ -18,8 +18,14 @@ public class Main {
         File directory= new File(dirPath);
         if (directory.exists()) {
             File[] sortedDirFiles = getSortedDirFiles(directory);
-            System.out.println(displayDirectoryHeader(dirPath));
-            displayDirContent(sortedDirFiles, 0);
+            if (sortedDirFiles != null) {
+                System.out.println(displayDirectoryHeader(dirPath));
+                displayDirContent(sortedDirFiles, 0);
+            } else {
+                System.out.println("The directory is empty.");
+            }
+        } else {
+            System.out.println("The directory path is invalid.");
         }
     }
 }

@@ -20,24 +20,18 @@ public class Main {
 
         File directory = new File(dirPath);
         if (directory.exists()) {
-            try {
-                File[] sortedDirFiles = getSortedDirFiles(directory);
+            File[] sortedDirFiles = getSortedDirFiles(directory);
+            if (sortedDirFiles != null) {
+                String header = displayDirectoryHeader(dirPath);
+                String dirContent = listDirContent(sortedDirFiles, level);
                 try {
-                    String header = displayDirectoryHeader(dirPath);
-                    String dirContent = listDirContent(sortedDirFiles, level);
                     writeDirectoryToFile(txtFilename, header, dirContent);
-                    try {
-                        File file = new File(txtFilename);
-                        readAndShowTXT(file);
-                    } catch (IOException e) {
-                        System.err.println(e.getMessage());
-                    }
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
+                    readAndShowTXT(txtFilename);
+                } catch (IOException e) {
+                    System.err.println(e.getMessage());
                 }
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
-                System.out.println("Hi ha hagut un problema al llegir el directori");
+            } else {
+                System.out.println("The directory is empty.");
             }
         } else {
             System.out.println("The directory does not exist");

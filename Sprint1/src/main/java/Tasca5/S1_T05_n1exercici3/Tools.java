@@ -3,6 +3,7 @@ package Tasca5.S1_T05_n1exercici3;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -13,7 +14,7 @@ public class Tools {
         return sortedDirFiles;
     }
 
-    public static String listDirContent(File[] sortedDirFiles, int level) throws Exception{
+    public static String listDirContent(File[] sortedDirFiles, int level) {
         String dirContent = "";
         for (File filename : sortedDirFiles) {
             Date dateLast = new Date(filename.lastModified());
@@ -32,19 +33,14 @@ public class Tools {
         return dirContent;
     }
 
-    public static void writeDirectoryToFile(String filePath, String header, String dirContent) {
-        File newFile = new File(filePath);
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) { // FileWriter creates a new file
+    public static void writeDirectoryToFile(String filePath, String header, String dirContent) throws IOException {
+        BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
             writer.write(header);
             writer.newLine();
             writer.write(dirContent);
             writer.close();
-            System.out.println("El contingut del directory s'ha guardat correctament a " + filePath);
-        } catch (Exception e) {
-            System.err.println(e.getMessage());
-            System.out.println("Hi ha hagut un problema durant el procés d'escriptura al arxiu.");
-        }
     }
+
 
     public static String displayDirectoryHeader(String dirPath) {
         String header = "";

@@ -52,9 +52,10 @@ public class Tools {
         return header;
     }
 
-    public static void readAndShowTXT(File file) throws IOException {
-        BufferedReader bReader = new BufferedReader(new FileReader(file));
+    public static void readAndShowTXT(String filePath) throws IOException {
+        File file = new File(filePath);
         String string;
+        BufferedReader bReader = new BufferedReader(new FileReader(file));
         System.out.println(file.getName() + " content is :");
         while ((string = bReader.readLine()) != null) {
             System.out.println(string);

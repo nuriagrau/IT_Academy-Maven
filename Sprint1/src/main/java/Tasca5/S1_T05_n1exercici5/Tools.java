@@ -12,7 +12,7 @@ public class Tools {
         return sortedDirFiles;
     }
 
-    public static String listDirContent(File[] sortedDirFiles, int level) throws Exception{
+    public static String listDirContent(File[] sortedDirFiles, int level) {
         String dirContent = "";
         for (File filename : sortedDirFiles) {
             Date dateLast = new Date(filename.lastModified());
@@ -31,18 +31,15 @@ public class Tools {
         return dirContent;
     }
 
-    public static void writeDirectoryToFile(String filePath, String header, String dirContent) {
-        File newFile = new File(filePath);
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) { // FileWriter creates a new file
+    public static void writeDirectoryToFile(String filePath, String header, String dirContent) throws IOException{
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             writer.write(header);
             writer.newLine();
             writer.write(dirContent);
             writer.newLine();
-            writer.close();
             System.out.println("El contingut del directory s'ha guardat correctament a " + filePath);
-        } catch (Exception e) {
-            System.err.println(e.getMessage());
-            System.out.println("Hi ha hagut un problema durant el procés d'escriptura al arxiu.");
+        } catch (IOException e) {
+            throw e;
         }
     }
 
@@ -52,7 +49,8 @@ public class Tools {
         return header;
     }
 
-    public static void readAndShowTXT(File file) throws IOException {
+    public static void readAndShowTXT(String txtFilename) throws IOException {
+        File file = new File(txtFilename);
         BufferedReader bReader = new BufferedReader(new FileReader(file));
         String string;
         System.out.println(file.getName() + " content is :");
@@ -63,29 +61,20 @@ public class Tools {
     }
 
     public static void startTeletransportation(String filename, Transporter object) {
-        // Serialization
-        try {
-            // Saving of object in a file
-            FileOutputStream file = new FileOutputStream(filename);
-            ObjectOutputStream out = new ObjectOutputStream(file);
-            // method for serialization of object
-            out.writeObject(object);
-            out.close();
-            file.close();
-            System.out.println("Object has been serialized\n" + "Data before Deserialization: " + object.toString());
-            // value change during process
-            object.newTeletransportations_count();
+        try (FileOutputStream file = new FileOutputStream(filename)){
+            try (ObjectOutputStream out = new ObjectOutputStream(file)) {
+                out.writeObject(object);
+                System.out.println("Object has been serialized\n" + "Data before Deserialization: " + object.toString());
+                // value change during process
+                object.newTeletransportations_count();
+            }
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
         object = null;
-        // Deserialization
-        try {// posar object  linea 85 dins try() per evitar close
-            // Reading the object from a file
-            ObjectInputStream in = new ObjectInputStream(new FileInputStream(filename));
-            // method for deserialization of object
+
+        try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(filename))){
             object = (Transporter) in.readObject();
-            in.close();
             System.out.println("Object has been deserialized\n" + "Data after Deserialization: " + object.toString());
         } catch (IOException e) {
             System.out.println(e.getMessage());

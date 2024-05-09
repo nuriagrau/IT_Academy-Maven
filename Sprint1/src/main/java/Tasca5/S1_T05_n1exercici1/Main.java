@@ -13,19 +13,18 @@ public class Main {
         String userDirectoryPath = System.getProperty("user.dir") + "/src/main/java";
         String dirPath = (args.length > 0)? args[0] : userDirectoryPath;
 
-        try {
             File directory = new File(dirPath);
             if (directory.exists()) {
                 File[] sortedDirFiles = getSortedDirFiles(directory);
-                displayDirContent(sortedDirFiles);
+                if (sortedDirFiles != null) {
+                    displayDirContent(sortedDirFiles);
+                } else {
+                    System.out.println("The directory is empty.");
+                }
+            } else {
+                System.out.println("The directory path is invalid.");
             }
-        } catch (FileNotFoundException e) {
-            System.out.println(e.getMessage());
-        } catch (NullPointerException e) {
-            System.out.println(e.getMessage());
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
+
     }
 
 }
