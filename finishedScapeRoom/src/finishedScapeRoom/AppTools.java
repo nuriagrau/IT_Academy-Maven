@@ -58,8 +58,6 @@ public class AppTools {
         String message = "";
         String roomName;
         String elementName;
-        String elementType;
-        boolean found = false;
         int roomIndex, elementIndex = -1;
         do {
             roomName = inputString("The following rooms have been created: \n" + showRooms() + "\nEnter the room to show its inventory: ");
@@ -76,7 +74,7 @@ public class AppTools {
     }
 
     private static String showInventory() {
-        String roomName, message, inventory = "The inventory for room ";
+        String roomName, message;
         int roomIndex = -1;
         do {
             roomName = inputString("The following rooms have been created: \n" + showRooms().toString() + "\nEnter the room to show its inventory: ");
@@ -143,13 +141,11 @@ public class AppTools {
         return message + "\n";
     }
 
-
     public static String createANewRoom() {
         String message = "";
         String name = "";
         String level = "";
         boolean foundEnum = false;
-        int roomIndex;
         name = inputString("Enter the name of the new room: ");
         do {
             level = inputString("Enter the difficulty level (VERYLOW, LOW, MEDIUM, HIGH, VERYHIGH): ");
