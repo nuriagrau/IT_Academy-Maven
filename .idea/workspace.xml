@@ -7,25 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Ready for Delivery Commit">
-      <change afterPath="$PROJECT_DIR$/examenEscapeRoom/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenEscapeRoom/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenEscapeRoom/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenEscapeRoom/examenEscapeRoom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenEscapeRoom/src/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenEscapeRoom/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenEscapeRoom/src/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/AppTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/Clue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/DifficultyLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/LaSalaDeLosEnigmas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/Sala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Examen">
+      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/AppTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Clue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/DifficultyLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/LaSalaDeLosEnigmas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Material.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/AppTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/AppTools.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +98,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven",
+    "last_opened_file_path": "/Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/examenScapeRoom/src/finishedScapeRoom",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -114,10 +106,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examenScapeRoom/src/finishedScapeRoom" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/finishedScapeRoom/src" />
       <recent name="$PROJECT_DIR$/Sprint1/src/main/java/Tasca5" />
       <recent name="$PROJECT_DIR$/Sprint1/src/test/java" />
       <recent name="$PROJECT_DIR$/Sprint1/src/main/java" />
@@ -128,6 +124,7 @@
       <recent name="Tasca4.S1_T04_n1exercici1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="finishedScapeRoom" />
       <recent name="Tasca7.S1_T07_n2exercici1" />
       <recent name="Tasca6.S1_T06_n2exercici2" />
       <recent name="Tasca6.S1_T06_n2exercici1" />
@@ -561,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712567454700</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Examen">
+      <option name="closed" value="true" />
+      <created>1715599336494</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1715599336494</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Try catch a main so throw not needed and both class and test files handles exception" />
     <MESSAGE value="Throws added to method signature" />
     <MESSAGE value="Primer Commit" />
     <MESSAGE value="Canvis neteja codi sense efecte" />
@@ -601,6 +605,7 @@
     <MESSAGE value="Ready for delivery" />
     <MESSAGE value="First commit for trials with paths" />
     <MESSAGE value="Ready for Delivery Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready for Delivery Commit" />
+    <MESSAGE value="Examen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Examen" />
   </component>
 </project>
