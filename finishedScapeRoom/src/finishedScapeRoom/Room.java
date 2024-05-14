@@ -95,7 +95,7 @@ public class Room {
 
     @Override
     public String toString() {
-        return "Sala [name= " + this.name + ", difficultyLevel= " + this.difficultyLevel + ", totalValue= " + this.totalValueCalculation() + "]\n";
+        return "Room [name= " + this.name + ", difficultyLevel= " + this.difficultyLevel + ", totalValue= " + this.totalValueCalculation() + "]\n";
     }
 
 

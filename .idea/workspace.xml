@@ -7,17 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Examen">
-      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/AppTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Clue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/DifficultyLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/LaSalaDeLosEnigmas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Room.java" afterDir="false" />
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Finished first version after exam">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/AppTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/AppTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Clue.java" beforeDir="false" afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Clue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Object.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/finishedScapeRoom/src/finishedScapeRoom/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -566,7 +561,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715599336494</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Finished version after exam">
+      <option name="closed" value="true" />
+      <created>1715724337697</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1715724337697</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Finished first version after exam">
+      <option name="closed" value="true" />
+      <created>1715724778301</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1715724778301</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -581,8 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Throws added to method signature" />
-    <MESSAGE value="Primer Commit" />
     <MESSAGE value="Canvis neteja codi sense efecte" />
     <MESSAGE value="Fixed unnecessary toString" />
     <MESSAGE value="New imporved version" />
@@ -606,6 +615,8 @@
     <MESSAGE value="First commit for trials with paths" />
     <MESSAGE value="Ready for Delivery Commit" />
     <MESSAGE value="Examen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Examen" />
+    <MESSAGE value="Finished version after exam" />
+    <MESSAGE value="Finished first version after exam" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished first version after exam" />
   </component>
 </project>

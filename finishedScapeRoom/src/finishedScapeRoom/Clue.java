@@ -37,7 +37,7 @@ public class Clue extends Element {
 
     @Override
     public String toString() {
-        return "Clue[name=" + super.getName() + ", topic= " + this.topic + ", estimatedPriceInSeconds= " + this.estimatedTimeInSeconds + ", raw price=" + super.getRawPrice() + ", price with IVA=" + priceCalculation(super.getRawPrice()) +"]\n";
+        return "Clue [name=" + super.getName() + ", topic= " + this.topic + ", estimatedPriceInSeconds= " + this.estimatedTimeInSeconds + ", raw price=" + super.getRawPrice() + ", price with IVA=" + priceCalculation(super.getRawPrice()) +"]\n";
     }
 
 }

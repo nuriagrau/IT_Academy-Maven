@@ -27,7 +27,7 @@ public class Object extends Element {
 
     @Override
     public String toString() {
-        return "Object[name=" + super.getName() + ", material= " + this.material + ", raw price=" + super.getRawPrice() + ", price with IVA=" + priceCalculation(super.getRawPrice()) +"]\n";
+        return "Object [name=" + super.getName() + ", material= " + this.material + ", raw price=" + super.getRawPrice() + ", price with IVA=" + priceCalculation(super.getRawPrice()) +"]\n";
     }
 
 }
