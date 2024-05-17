@@ -7,11 +7,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="Finished first version after exam">
-      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n1exercici1/AppTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n1exercici1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n1exercici1/Undo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d67fe9ae-48eb-4561-b527-0f9002180827" name="Changes" comment="First version ready for delivery">
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/AddressBookFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/AppTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/ApplicationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/DKAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/DKAddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/ESAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/ESAddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/UKAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/UKAddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprint3/src/S3_T01_n2exercici1/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/AppTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/examenScapeRoom/src/examenScapeRoom/AppTools.java" afterDir="false" />
     </list>
@@ -24,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,44 +71,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayIndexOutOfBounds.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayIndexOutOfBoundsException.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculDni.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DirContent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DirList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DirListReadTXT.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DirListReadTXTNC.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DirListText.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LaSalaDeLosEnigmas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Month.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Year.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ArrayIndexOutOfBoundsExceptionTest.ArrayIndexOutOfBounds_shouldTrowExceptionTest.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.ArrayIndexOutOfBoundsExceptionTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CalculDniTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StringLengthTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.YearTest.addMonths.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.YearTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.YearTest.test_value.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Maven [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Maven [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven/examenScapeRoom/src/finishedScapeRoom&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApplicationConfiguration.executor": "Run",
+    "Application.ArrayIndexOutOfBounds.executor": "Run",
+    "Application.ArrayIndexOutOfBoundsException.executor": "Run",
+    "Application.CalculDni.executor": "Run",
+    "Application.DirContent.executor": "Run",
+    "Application.DirList.executor": "Run",
+    "Application.DirListReadTXT.executor": "Run",
+    "Application.DirListReadTXTNC.executor": "Run",
+    "Application.DirListText.executor": "Run",
+    "Application.Java.executor": "Run",
+    "Application.LaSalaDeLosEnigmas.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Month.executor": "Run",
+    "Application.Year.executor": "Run",
+    "JUnit.ArrayIndexOutOfBoundsExceptionTest.ArrayIndexOutOfBounds_shouldTrowExceptionTest.executor": "Debug",
+    "JUnit.ArrayIndexOutOfBoundsExceptionTest.executor": "Run",
+    "JUnit.CalculDniTest.executor": "Run",
+    "JUnit.StringLengthTest.executor": "Run",
+    "JUnit.YearTest.addMonths.executor": "Run",
+    "JUnit.YearTest.executor": "Run",
+    "JUnit.YearTest.test_value.executor": "Run",
+    "Maven.Maven [clean].executor": "Run",
+    "Maven.Maven [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/macbookprodenuria/IdeaProjects/IT_Academy/Maven",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/examenScapeRoom/src/finishedScapeRoom" />
@@ -586,7 +595,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715725035515</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="First version ready for delivery">
+      <option name="closed" value="true" />
+      <created>1715850087765</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1715850087765</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,7 +618,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Canvis neteja codi sense efecte" />
     <MESSAGE value="Fixed unnecessary toString" />
     <MESSAGE value="New imporved version" />
     <MESSAGE value="New improved version" />
@@ -626,6 +642,7 @@
     <MESSAGE value="Examen" />
     <MESSAGE value="Finished version after exam" />
     <MESSAGE value="Finished first version after exam" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished first version after exam" />
+    <MESSAGE value="First version ready for delivery" />
+    <option name="LAST_COMMIT_MESSAGE" value="First version ready for delivery" />
   </component>
 </project>
