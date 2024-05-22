@@ -6,8 +6,8 @@ public class Application {
     public Application(AddressBookFactory addressBookFactory) {
         this.addressBookFactory= addressBookFactory;
     }
-    public Address createAddress() {
-        this.address = addressBookFactory.createAddress();
+    public Address createAddress(String[] addressData) {
+        this.address = addressBookFactory.createAddress(addressData);
         return address;
     }
 

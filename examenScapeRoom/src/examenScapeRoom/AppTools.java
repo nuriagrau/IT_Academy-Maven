@@ -16,16 +16,16 @@ public class AppTools {
     public static Scanner scanner = new Scanner(System.in);
 
 
-    public static String startMenu() {
+    public static void startMenu() {
         int option = 0;
         String message = "";
-        option = requireInput("Welcome to La Sala De Los Enigmas. Choose an option:\n" +
+        option = inputInt("Welcome to La Sala De Los Enigmas. Choose an option:\n" +
                     "0. Exit\n" +
                     "1. Create a new room\n" +
                     "2. Add clues to a room\n" +
                     "3. Add decoration objects to a room\n" +
                     "4. Show inventory\n" +
-                    "5. Remove inventory elements\n", option);
+                    "5. Remove inventory elements\n");
 
         switch(option) {
             case 0:
@@ -46,19 +46,20 @@ public class AppTools {
                 break;
 
         }
-        return message;
+        System.out.println(message);
     }
 
     public static String createANewRoom() {
         ArrayList<Sala> laSalaDeLosEnigmas = new ArrayList<>();
         String message = "";
         String name = "";
-        String difficultyLevel;
-        name = requireInput("Name of the new room:", name);
+        String difficultyLevel = "";
+        name = inputString("Name of the new room: ");
         if (name != "") {
-            difficultyLevel = requireInput("What will be the difficulty level (VERYLOW, LOW, MEDIUM, HIGH, VERYHIGH):", name);
-            Sala newSala = new Sala(name, difficultyLevel);
-            message = "The new room " + name + "has been created";
+            difficultyLevel = inputString("What will be the difficulty level (VERYLOW, LOW, MEDIUM, HIGH, VERYHIGH): ");
+            Sala newSala = new Sala(name, difficultyLevel.toUpperCase());
+            laSalaDeLosEnigmas.add(newSala);
+            message = "The new room " + name + " has been created";
         } else {
             message = "Something went wrong when creating the new room";
         }
@@ -66,7 +67,7 @@ public class AppTools {
     }
 
 
-    public static int requireInput(String request, int parameter){
+    public static int inputInt(String request){
         int input = 0;
         boolean isValid = false;
         while (!isValid) {
@@ -74,29 +75,29 @@ public class AppTools {
             try {
                 input =  scanner.nextInt();
                 isValid = true;
-
             } catch(InputMismatchException e) {
                 System.err.println("Format Error. Please enter a valid integer.");
+            } finally {
                 scanner.nextLine();
             }
         }
         return input;
     }
 
-    public static String requireInput(String request, String parameter) {
-        System.out.print(request + ": ");
-        scanner.nextLine();
-        while (true) {
+    public static String inputString(String missatge){
+        Boolean isValid  = false;
+        String userInput = "";
+        do {
             try {
-                return scanner.nextLine();
+                System.out.println(missatge);
+                userInput = scanner.nextLine();
+                isValid = true;
             } catch (Exception e) {
-                System.out.println("Error. Please enter a valid input.");
-                System.out.print(request + ": ");
-                scanner.nextLine();
+                System.out.println("Format Error. Introduce a String.");
             }
-        }
+        } while (!isValid);
+        return userInput;
     }
-
 
 
 }
